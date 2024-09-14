@@ -1,0 +1,7 @@
+f = open("names.txt", "r")
+words = f.readlines()
+words.sort()
+f1 = open("output.txt","w")
+f1.writelines(words)
+f1.close()
+f.close()
